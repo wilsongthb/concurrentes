@@ -1,8 +1,9 @@
+#include "g_metodos.h"
 #include <cstdio>
 #include <cmath>
 #include <graphics.h>
 //#include "metodos.h"
-#include "g_metodos.h"
+
 #include <thread>
 //#include <iostream>
 

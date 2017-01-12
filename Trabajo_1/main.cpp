@@ -1,4 +1,6 @@
 // sc_ejemplo1.cpp: define el punto de entrada de la aplicacion de consola.
+#include "funciones.h"
+
 
 #include <iostream>
 #include <thread>
@@ -6,13 +8,13 @@
 #include <chrono>
 #include <ctime>
 
-#include "funciones.h"
-
-#define N 1000
+#define N 500
 
 using namespace std;
 
 double primos[N];
+
+
 
 int main()
 {
@@ -21,6 +23,6 @@ int main()
 
 	t2.join();
 	t1.join();
-	
+
     return 0;
 }
