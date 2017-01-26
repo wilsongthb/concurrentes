@@ -1,4 +1,4 @@
-#include "g_metodos.h"
+
 #include <cstdio>
 #include <cmath>
 #include <graphics.h>
@@ -8,6 +8,8 @@
 //#include <iostream>
 
 using namespace std;
+
+#include "g_metodos.h"
 
 void mostrar(int *arr_1, int *arr_2, int *arr_3, int *arr_4){
     initwindow(MAX_X, MAX_Y, "ORDENACION CONCURRENTE");

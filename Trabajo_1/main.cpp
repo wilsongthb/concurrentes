@@ -1,7 +1,4 @@
 // sc_ejemplo1.cpp: define el punto de entrada de la aplicacion de consola.
-#include "funciones.h"
-
-
 #include <iostream>
 #include <thread>
 #include <time.h>
@@ -14,7 +11,7 @@ using namespace std;
 
 double primos[N];
 
-
+#include "funciones.h"
 
 int main()
 {
